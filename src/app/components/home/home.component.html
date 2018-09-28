@@ -1,0 +1,17 @@
+<div class="home-container">
+    <mat-card class="home-card">
+        <mat-card-header>
+            <mat-card-title class="title">Your profile</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-list>
+                <mat-list-item><span>First name:</span>{{authorizedUser?.firstName}} </mat-list-item>
+                <mat-list-item><span>Last name:</span>{{authorizedUser?.lastName}} </mat-list-item>
+                <mat-list-item><span>Email:</span>{{authorizedUser?.email}} </mat-list-item>
+            </mat-list>
+        </mat-card-content>
+        <mat-card-actions class="btns-container">
+            <button mat-raised-button (click)="logout()" color="warn">Logout</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

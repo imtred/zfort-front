@@ -1,0 +1,26 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .registration-card {
+    width: 400px;
+    position: absolute;
+    top: calc(50% - 171px);
+
+    .title {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btns-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

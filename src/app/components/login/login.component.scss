@@ -1,0 +1,26 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-card {
+    width: 400px;
+    position: absolute;
+    top: calc(50% - 119px);
+
+    .title {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btns-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home-card {
+    width: 400px;
+    position: absolute;
+    top: calc(50% - 119px);
+
+    .title {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .btns-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
+}
